@@ -1,7 +1,7 @@
 import streamlit as str 
 
 str.title("Hitung Modal Jastip")
-str.text("Asumsi 1 IDR = 3.500 MYR")
+str.text("Asumsi 1 MYR = 3.500 IDR")
 
 def input_ringgit_price():
     ringgit_price = str.number_input("Masukkan harga Ringgit", 0)
